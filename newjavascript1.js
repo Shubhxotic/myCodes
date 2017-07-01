@@ -8,6 +8,6 @@
 
 $(document).ready(function (){
     $('.jbutton').click(function (){
-        $('#ColorDiv').css('background-color',this.innerHTML.toLowerCase());
+        $('#ColorDiv').css('backgroundColor',this.innerHTML.toLowerCase());
     });
 });
