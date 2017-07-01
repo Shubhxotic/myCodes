@@ -32,5 +32,6 @@ function changeColor(color)
 function changeColorEvent(event)
 {
     var x=event.srcElement;
+    alert("clicked me");
     document.getElementById("ColorDiv").style.backgroundColor=x.innerHTML.toLowerCase();
 }
