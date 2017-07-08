@@ -35,13 +35,6 @@ def hello():
     r=requests.post(query_url, data=json.dumps(query) ,headers=headers)
     print("r=",r)
     return jsonify(r.json())
-    """query ={
-            		"type": "select",
-            		"args": {
-            			"table": "Users",
-            			"columns": ["*"]
-            			}
-            		}
 
 @app.route("/<string:role>")
 def get_role(role):
